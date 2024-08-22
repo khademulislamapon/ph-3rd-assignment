@@ -20,12 +20,16 @@
           theme: {
             extend: {
               colors: {
-                PrimaryColor: '#E76F51',
-                HeadingPrimary: '#0A0826',
+                PrimaryColor: '#ABEF5F',
+                HeadingPrimary: '#212121',
+                ParagraphPrimary: '#494949',
+                ParagraphSecondary: '#737373',
+                ArrowBG: '#1C1C1C',
+                BGColor: '#F4F4F4',
+
                 HeadingSecondary: '#0D0925',
                 CardHeading: '#18191F',
                 FAQHeading: '#383838',
-                ParagraphPrimary: '#6C6C6C',
                 FAQParagraph: '#7E848C',
                 ClientName: '#23A6F0',
                 ClientOccupation: '#252B42',
@@ -40,10 +44,124 @@
 </head>
 <body class="font-Manrope">
     <!-- header section -->
-     <header></header>
+     <header class="bg-gradient-to-t from-gray-50 to-gray-100 h-auto">
+      <section class="container mx-auto">
+        <div class="pt-8 mb-8 sm:pt-12 sm:mb-10">
+          <div class="navbar bg-transparent">
+            <div class="navbar-start">
+              <div class="flex items-center">
+                <div class="bg-PrimaryColor w-8 h-8 rounded-full flex justify-center items-center mr-2">
+                  <i class="fa-solid fa-arrow-up rotate-45"></i>
+                   <!-- <img class="max-w-full max-h-full object-cover" src="./assets/Group 1.png" alt=""> -->
+                </div>
+                <h6 class="text-HeadingPrimary font-extrabold text-[28px] sm:text-2xl">Rinterio</h6>
+              </div>
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu-horizontal text-ParagraphSecondary text-base space-x-9">
+                <li class="text-ParagraphPrimary font-extrabold"><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            
+            <div class="navbar-end">
+              <div class="flex items-center hidden sm:inline-flex">
+                <div class="bg-white w-12 h-12 rounded-full flex justify-center items-center mr-4">
+                  <i class="fa-solid fa-magnifying-glass text-ParagraphSecondary"></i>
+                </div>
+                <div class="bg-white w-12 h-12 rounded-full flex justify-center items-center mr-4">
+                  <i class="fa-solid fa-cart-shopping text-ParagraphSecondary"></i>
+                </div>
+                <div>
+                  <button class="flex items-center py-5 px-3 bg-PrimaryColor rounded-[32px] text-ArrowBG text-xl font-extrabold">
+                    Book Consult 
+                    <div class="bg-ArrowBG w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                      <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              <div class="bg-white w-12 h-12 rounded-full flex justify-center items-center block sm:hidden">
+                <i class="fa-solid fa-bars text-ParagraphSecondary"></i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pb-10 sm:pb-24">
+        <div class="hero">
+          <div class="hero-content grid grid-cols-1 justify-items-center">
+            <div>
+              <img class="max-w-full max-h-full object-cover mb-4 sm:mb-6" src="./assets/banner.png" alt="">
+            </div>
+            <div class="sm:w-5/6 grid justify-items-center text-center">
+              <h1 class="text-3xl lg:text-6xl text-HeadingPrimary font-extrabold">A barn house of this design has a striking appearance</h1>
+              <p class="mt-4 sm:mt-6 mb-5 sm:mb-8 text-ParagraphPrimary font-medium text-base lg:w-11/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <button class="flex items-center justify-center py-3 w-full sm:w-auto sm:px-6 bg-[#D4F6AE] rounded-[32px] text-HeadingPrimary text-xl font-extrabold border border-PrimaryColor">
+                View Details 
+                <div class="bg-PrimaryColor w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                  <i class="fa-solid fa-arrow-up rotate-45 text-ArrowBG"></i>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+     </header>
 
      <!-- main section -->
-      <main></main>
+      <main class="bg-BGColor">
+        <section class="container mx-auto py-8 sm:py-24 h-auto">
+          <div class="relative">
+            <div class="absolute -top-14 -left-11 rotate-0 hidden sm:block">
+              <img class="max-w-full max-h-full object-cover" src="./assets/Vector.png" alt="">
+            </div>
+
+            <div class="h-auto px-5 sm:px-0">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-9">
+
+                <div class="grid justify-items-center sm:justify-items-start">
+                  <button class="bg-white py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> About Us</button>
+                  <h1 class="text-3xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 lg:w-5/6 text-center sm:text-start">We design thoughtful, liveable spaces</h1>
+                  <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base text-center sm:text-start">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                  <div class="flex items-center gap-x-6 bg-white py-5 px-5 lg:py-6 lg:px-6 rounded-2xl mt-6 mb-4 sm:mb-6">
+                    <div>
+                      <img class="max-w-full max-h-full object-cover" src="./assets/commercial.png" alt="">
+                    </div>
+                    <div class="space-y-2 ">
+                      <h4 class="text-ParagraphPrimary text-base font-extrabold sm:text-xl">Commercial</h4>
+                      <p class="lg:w-4/6 text-ParagraphSecondary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center gap-x-6 bg-white py-5 px-5 lg:py-6 lg:px-6 rounded-2xl">
+                    <div>
+                      <img class="max-w-full max-h-full object-cover" src="./assets/residential.png" alt="">
+                    </div>
+                    <div class="space-y-2 ">
+                      <h4 class="text-ParagraphPrimary text-base font-extrabold sm:text-xl">Residential</h4>
+                      <p class="lg:w-4/6 text-ParagraphSecondary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <img class="max-w-full max-h-full object-cover" src="./assets/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+      </main>
 
       <!-- footer section -->
        <footer></footer>
