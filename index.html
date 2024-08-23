@@ -26,13 +26,7 @@
                 ParagraphSecondary: '#737373',
                 ArrowBG: '#1C1C1C',
                 BGColor: '#F4F4F4',
-
-                HeadingSecondary: '#0D0925',
-                CardHeading: '#18191F',
-                FAQHeading: '#383838',
-                FAQParagraph: '#7E848C',
-                ClientName: '#23A6F0',
-                ClientOccupation: '#252B42',
+                BRColor: '#E9E9E9',
               },
               fontFamily: {
                 'Manrope': ['Manrope', 'sans-serif'],
@@ -42,7 +36,7 @@
         }
       </script>
 </head>
-<body class="font-Manrope">
+<body class="font-Manrope bg-BGColor">
     <!-- header section -->
      <header class="bg-gradient-to-t from-gray-50 to-gray-100 h-auto">
       <section class="container mx-auto">
@@ -117,14 +111,15 @@
      </header>
 
      <!-- main section -->
-      <main class="bg-BGColor">
+      <main class="">
+        <!-- About Us -->
         <section class="container mx-auto py-8 sm:py-24 h-auto">
           <div class="relative">
             <div class="absolute -top-14 -left-11 rotate-0 hidden sm:block">
               <img class="max-w-full max-h-full object-cover" src="./assets/Vector.png" alt="">
             </div>
 
-            <div class="h-auto px-5 sm:px-0">
+            <div class="px-5 sm:px-0">
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-9">
 
                 <div class="grid justify-items-center sm:justify-items-start">
@@ -161,6 +156,241 @@
             
           </div>
         </section>
+
+        <!-- b -->
+         <section class="container mx-auto px-5 sm:px-0">
+          <div class="bg-white rounded-3xl grid grid-cols-1 sm:grid-cols-4 gap-6 p-6 sm:p-8">
+            <div class="grid justify-items-center p-5 sm:p-6">
+              <img class="max-w-full max-h-full object-cover mt-2.5 mb-0.5" src="./assets/comment-01.png" alt="">
+              <h6 class="font-extrabold text-ParagraphPrimary text-[32px] sm:text-[40px]">235+</h6>
+              <p class="font-medium text-ParagraphSecondary text-base">Happy Client Review</p>
+            </div>
+            <div class="grid justify-items-center p-5 sm:p-6">
+              <img class="max-w-full max-h-full object-cover mt-2.5 mb-0.5" src="./assets/departement.png" alt="">
+              <h6 class="font-extrabold text-ParagraphPrimary text-[32px] sm:text-[40px]">50+</h6>
+              <p class="font-medium text-ParagraphSecondary text-base">Work Departments</p>
+            </div>
+            <div class="grid justify-items-center p-5 sm:p-6">
+              <img class="max-w-full max-h-full object-cover mt-2.5 mb-0.5" src="./assets/Group 8.png" alt="">
+              <h6 class="font-extrabold text-ParagraphPrimary text-[32px] sm:text-[40px]">30k+</h6>
+              <p class="font-medium text-ParagraphSecondary text-base">Our Happy Client</p>
+            </div>
+            <div class="grid justify-items-center p-5 sm:p-6">
+              <img class="max-w-full max-h-full object-cover mt-2.5 mb-0.5" src="./assets/user-multiple.png" alt="">
+              <h6 class="font-extrabold text-ParagraphPrimary text-[32px] sm:text-[40px]">307+</h6>
+              <p class="font-medium text-ParagraphSecondary text-base">Staff Members</p>
+            </div>
+          </div>
+         </section>
+
+         <!-- Our Works Process --> <!-- max-w-full max-h-full object-cover -->
+          <section class="container mx-auto py-24">
+            <div class="grid justify-items-center mb-8 sm:mb-6">
+              <button class="bg-white py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> How we works</button>
+              <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Our Works Process</h1>
+              <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-5/6 sm:w-3/6 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 px-5 sm:px-0">
+              <div class="bg-[#E7C1D3] p-6 rounded-2xl">
+                <img class="max-w-full max-h-full object-cover" src="./assets/concept.png" alt="">
+                <h6 class="my-2.5 text-ParagraphPrimary text-xl font-extrabold">Concept</h6>
+                <p class="text-ParagraphPrimary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <div class="bg-[#EFDA6E] p-6 rounded-2xl">
+                <img class="max-w-full max-h-full object-cover" src="./assets/flow-chart.png" alt="">
+                <h6 class="my-2.5 text-ParagraphPrimary text-xl font-extrabold">Design Process</h6>
+                <p class="text-ParagraphPrimary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <div class="bg-[#A4DAC3] p-6 rounded-2xl">
+                <img class="max-w-full max-h-full object-cover" src="./assets/vision.png" alt="">
+                <h6 class="my-2.5 text-ParagraphPrimary text-xl font-extrabold">Supervision</h6>
+                <p class="text-ParagraphPrimary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <div class="bg-[#77AAEA] p-6 rounded-2xl">
+                <img class="max-w-full max-h-full object-cover" src="./assets/budget-planning.png" alt="">
+                <h6 class="my-2.5 text-ParagraphPrimary text-xl font-extrabold">Budget Planning</h6>
+                <p class="text-ParagraphPrimary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+
+          </section>
+
+          <!-- Our Latest Portfolio -->
+          <section class="bg-white py-24">
+            <div class="container mx-auto">
+              <div class="grid justify-items-center mb-8 sm:mb-6">
+                <button class="bg-[#EEFCDF] py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> Explore our Latest works</button>
+                <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Our Latest Portfolio</h1>
+                <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-5/6 sm:w-3/6 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              </div>
+
+              <div class=" grid grid-cols-1 lg:grid-cols-12 gap-6 px-5 sm:px-0">
+
+                <div class="flex items-center flex-col sm:flex-row p-6 border border-BRColor rounded-2xl gap-6 lg:col-span-8">
+                  <img class="w-full h-full object-cover" src="./assets/img1.png" alt="">
+                  <div>
+                    <h5 class="text-ParagraphPrimary text-xl lg:text-2xl font-extrabold ">Commercial</h5>
+                    <p class="mt-4 mb-5 text-ParagraphSecondary text-base font-medium">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                    <div class="flex items-center">
+                      <p class="text-HeadingPrimary text-base lg:text-xl font-extrabold">View Details</p>
+                      <div class="bg-PrimaryColor w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                        <i class="fa-solid fa-arrow-up rotate-45 text-ArrowBG"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-center p-6 border border-BRColor rounded-2xl lg:col-span-4">
+                  <img class="w-full h-full object-cover rounded-2xl" src="./assets/img2.png" alt="">
+                </div>
+
+                <div class="block lg:hidden">
+                  <div class="flex items-center p-6 border border-BRColor rounded-2xl">
+                    <img class="w-full h-full object-cover" src="./assets/img5.png" alt="">
+                  </div>
+                </div>
+
+                <div class="flex items-center p-6 border border-BRColor rounded-2xl lg:col-span-3 order-2 sm:order-1">
+                  <img class="w-full h-full object-cover" src="./assets/img3.png" alt="">
+                </div>
+
+                <div class="flex items-center flex-col sm:flex-row p-6 border border-BRColor rounded-2xl gap-6 lg:col-span-6 order-1">
+                  <img class="w-full h-full object-cover" src="./assets/img4.png" alt="">
+                  <div>
+                    <h5 class="text-ParagraphPrimary text-xl lg:text-2xl font-extrabold ">Commercial</h5>
+                    <p class="mt-4 mb-5 text-ParagraphSecondary text-base font-medium">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                    <div class="flex items-center">
+                      <p class="text-HeadingPrimary text-base lg:text-xl font-extrabold">View Details</p>
+                      <div class="bg-PrimaryColor w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                        <i class="fa-solid fa-arrow-up rotate-45 text-ArrowBG"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-center p-6 border border-BRColor rounded-2xl lg:col-span-3 order-2 sm:order-1">
+                  <img class="w-full h-full object-cover" src="./assets/img5.png" alt="">
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- Read Our Articles and News -->
+          <section class="py-24 container mx-auto">
+            <div class="grid justify-items-center mb-8 sm:mb-6">
+              <button class="bg-[#EEFCDF] py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> Rinterio News</button>
+              <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Read Our Articles and News</h1>
+              <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-5/6 sm:w-3/6 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 px-5 sm:px-0">
+              <div class="flex items-center flex-col p-6 border border-BRColor rounded-2xl">
+                <img class="w-full h-full object-cover" src="./assets/article1.png" alt="">
+                <div class="mt-4">
+                  <div  class="flex items-center">
+                    <div class="flex items-center mr-3">
+                      <img class="max-w-full max-h-full object-cover mr-2" src="./assets/calendar-03.png" alt="">
+                      <h6 class="text-ParagraphSecondary text-sm font-medium">July14, 2024</h6>
+                    </div>
+                    <div class="flex items-center ">
+                      <i class="fa-regular fa-circle-user text-2xl text-ParagraphSecondary mr-2"></i>
+                      <h6 class="text-ParagraphSecondary text-sm font-medium">By Admin</h6>
+                    </div>
+                  </div>
+                  <h5 class="text-ParagraphPrimary text-xl font-extrabold my-2">How to choose the furniture right  of your home.</h5>
+                  <p class="mb-3 text-ParagraphSecondary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                  <div class="flex items-center">
+                    <p class="text-HeadingPrimary text-lg lg:text-base font-bold">Read More</p>
+                    <div class="bg-PrimaryColor w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                      <i class="fa-solid fa-arrow-up rotate-45 text-ArrowBG"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center flex-col p-6 border border-BRColor rounded-2xl">
+                <img class="w-full h-full object-cover" src="./assets/article2.png" alt="">
+                <div class="mt-4">
+                  <div  class="flex items-center">
+                    <div class="flex items-center mr-3">
+                      <img class="max-w-full max-h-full object-cover mr-2" src="./assets/calendar-03.png" alt="">
+                      <h6 class="text-ParagraphSecondary text-sm font-medium">July14, 2024</h6>
+                    </div>
+                    <div class="flex items-center ">
+                      <i class="fa-regular fa-circle-user text-2xl text-ParagraphSecondary mr-2"></i>
+                      <h6 class="text-ParagraphSecondary text-sm font-medium">By Admin</h6>
+                    </div>
+                  </div>
+                  <h5 class="text-ParagraphPrimary text-xl font-extrabold my-2">How to choose the furniture right  of your home.</h5>
+                  <p class="mb-3 text-ParagraphSecondary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                  <div class="flex items-center">
+                    <p class="text-HeadingPrimary text-lg lg:text-base font-bold">Read More</p>
+                    <div class="bg-PrimaryColor w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                      <i class="fa-solid fa-arrow-up rotate-45 text-ArrowBG"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center flex-col p-6 border border-BRColor rounded-2xl">
+                <img class="w-full h-full object-cover" src="./assets/article3.png" alt="">
+                <div class="mt-4">
+                  <div  class="flex items-center">
+                    <div class="flex items-center mr-3">
+                      <img class="max-w-full max-h-full object-cover mr-2" src="./assets/calendar-03.png" alt="">
+                      <h6 class="text-ParagraphSecondary text-sm font-medium">July14, 2024</h6>
+                    </div>
+                    <div class="flex items-center ">
+                      <i class="fa-regular fa-circle-user text-2xl text-ParagraphSecondary mr-2"></i>
+                      <h6 class="text-ParagraphSecondary text-sm font-medium">By Admin</h6>
+                    </div>
+                  </div>
+                  <h5 class="text-ParagraphPrimary text-xl font-extrabold my-2">How to choose the furniture right  of your home.</h5>
+                  <p class="mb-3 text-ParagraphSecondary text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                  <div class="flex items-center">
+                    <p class="text-HeadingPrimary text-lg lg:text-base font-bold">Read More</p>
+                    <div class="bg-PrimaryColor w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                      <i class="fa-solid fa-arrow-up rotate-45 text-ArrowBG"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+
+           <!-- Let’s Discuss Next Project -->
+            <section class="h-auto border-[3px] sm:border-[7px] border-white" style="background-image: url(./assets/bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+              <!-- <div class="hero-overlay bg-opacity-60"></div> -->
+
+              <div class="container mx-auto py-8 sm:py-24 px-6 sm:px-0">
+                <div class="grid justify-items-center mb-8 sm:mb-6">
+                  <button class="bg-[#EEFCDF] py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> Let’s Connect</button>
+                  <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 text-center w-4/6 sm:w-6/6">Let’s Discuss Next Project</h1>
+                  <p class="text-ParagraphPrimary font-medium text-sm sm:text-base w-6/6 sm:w-3/6 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+
+                <div class="">
+                  <div class="flex items-center flex-col sm:flex-row gap-5 sm:gap-6 mb-6">
+                    <input  class="w-full rounded-[64px] py-5 pl-5 placeholder:text-base font-medium" type="text" name="" id="" placeholder="First Name*">
+                    <input  class="w-full rounded-[64px] py-5 pl-5 placeholder:text-base font-medium" type="text" name="" id="" placeholder="Last Name*">
+                  </div>
+                  <div class="flex items-center flex-col sm:flex-row gap-5 sm:gap-6">
+                    <input  class="w-full rounded-[64px] py-5 pl-5 placeholder:text-base font-medium" type="number" name="" id="" placeholder="Phone Number*">
+                    <input  class="w-full rounded-[64px] py-5 pl-5 placeholder:text-base font-medium" type="email" name="" id="" placeholder="Email Number*">
+                  </div>
+                  <textarea name="" id="" class="w-full mt-6 mb-6 sm:mb-8 rounded-[32px] p-5 text-[#A0A0A0] text-base font-medium" rows="6">Write your message here</textarea>
+
+                  <button class="flex items-center justify-center  py-5 px-3 bg-PrimaryColor rounded-[32px] text-ArrowBG text-xl font-extrabold w-full">
+                    Send Mail 
+                    <div class="bg-ArrowBG w-8 h-8 rounded-full flex justify-center items-center ml-2">
+                      <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
+                    </div>
+                  </button>
+
+                </div>
+              </div>
+            </section>
+            
       </main>
 
       <!-- footer section -->
