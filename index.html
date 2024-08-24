@@ -27,6 +27,7 @@
                 ArrowBG: '#1C1C1C',
                 BGColor: '#F4F4F4',
                 BRColor: '#E9E9E9',
+                StarColor: '#E77C40',
               },
               fontFamily: {
                 'Manrope': ['Manrope', 'sans-serif'],
@@ -65,13 +66,13 @@
             <div class="navbar-end">
               <div class="flex items-center hidden sm:inline-flex">
                 <div class="bg-white w-12 h-12 rounded-full flex justify-center items-center mr-4">
-                  <i class="fa-solid fa-magnifying-glass text-ParagraphSecondary"></i>
+                  <i class="fa-solid fa-magnifying-glass text-ParagraphSecondary text-2xl"></i>
                 </div>
                 <div class="bg-white w-12 h-12 rounded-full flex justify-center items-center mr-4">
-                  <i class="fa-solid fa-cart-shopping text-ParagraphSecondary"></i>
+                  <i class="fa-solid fa-cart-shopping text-ParagraphSecondary text-2xl"></i>
                 </div>
                 <div>
-                  <button class="flex items-center py-5 px-3 bg-PrimaryColor rounded-[32px] text-ArrowBG text-xl font-extrabold">
+                  <button class="flex items-center px-5 py-3 bg-PrimaryColor rounded-[32px] text-ArrowBG text-xl font-extrabold">
                     Book Consult 
                     <div class="bg-ArrowBG w-8 h-8 rounded-full flex justify-center items-center ml-2">
                       <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
@@ -81,7 +82,7 @@
               </div>
 
               <div class="bg-white w-12 h-12 rounded-full flex justify-center items-center block sm:hidden">
-                <i class="fa-solid fa-bars text-ParagraphSecondary"></i>
+                <i class="fa-solid fa-bars text-ParagraphSecondary text-2xl"></i>
               </div>
 
             </div>
@@ -127,7 +128,7 @@
                   <h1 class="text-3xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 lg:w-5/6 text-center sm:text-start">We design thoughtful, liveable spaces</h1>
                   <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base text-center sm:text-start">We create thoughtfully designed, livable spaces that enhance comfort and functionality, perfectly tailored to your lifestyle needs.</p>
 
-                  <div class="flex items-center gap-x-6 bg-white py-5 px-5 lg:py-6 lg:px-6 rounded-2xl mt-6 mb-4 sm:mb-6">
+                  <div class="flex items-start sm:items-center gap-x-6 bg-white py-5 px-5 lg:py-6 lg:px-6 rounded-2xl mt-6 mb-4 sm:mb-6">
                     <div>
                       <img class="max-w-full max-h-full object-cover" src="./assets/commercial.png" alt="">
                     </div>
@@ -137,7 +138,7 @@
                     </div>
                   </div>
 
-                  <div class="flex items-center gap-x-6 bg-white py-5 px-5 lg:py-6 lg:px-6 rounded-2xl">
+                  <div class="flex items-start sm:items-center gap-x-6 bg-white py-5 px-5 lg:py-6 lg:px-6 rounded-2xl">
                     <div>
                       <img class="max-w-full max-h-full object-cover" src="./assets/residential.png" alt="">
                     </div>
@@ -183,15 +184,150 @@
           </div>
          </section>
 
-         <!-- Our Works Process -->
-          <section class="container mx-auto py-24">
-            <div class="grid justify-items-center mb-8 sm:mb-6">
-              <button class="bg-white py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> How we works</button>
-              <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Our Works Process</h1>
-              <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-5/6 sm:w-3/6 text-center">Our works process blends creativity and precision to deliver tailored, high-quality solutions from concept to completion.</p>
+         <!-- Our Clients Say -->
+         <section class="pt-8 sm:pt-24 container mx-auto px-5 sm:px-0">
+          <div class="grid justify-items-center mb-6 sm:mb-8">
+            <button class="bg-[#EEFCDF] py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> Explore Our Client Feedback</button>
+            <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Our Clients Say</h1>
+            <p class="text-ParagraphPrimary font-medium text-sm sm:text-base w-6/6 sm:w-3/6 text-center">Read feedback from our clients, sharing their experiences and satisfaction with our design solutions and exceptional service quality.</p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
+            <div class="card bg-white shadow-xl">
+              <figure class="px-20 pt-10">
+                <img src="./assets/Emily Johnson.png"
+                  alt="Shoes" class="w-[149px] h-[149px] object-cover rounded-full border-2 border-PrimaryColor"/>
+              </figure>
+              <div class="card-body items-center text-center space-y-4">
+                <p class="text-ParagraphSecondary font-medium text-base">Rinterio transformed our office space with innovative design and precision. Their attention to detail exceeded our expectations.</p>
+                <div class="text-StarColor">
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                </div>
+                <h5 class="font-semibold text-sm text-HeadingPrimary">Emily Johnson</h5>
+                <h6 class="font-semibold text-sm text-ParagraphPrimary">Architect</h6>
+              </div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 px-5 sm:px-0">
+            <div class="card bg-white shadow-xl hidden sm:block">
+              <figure class="px-20 pt-10">
+                <img
+                  src="./assets/David Lee.png"
+                  alt="Shoes"
+                  class="w-[149px] h-[149px] object-cover rounded-full border-2 border-PrimaryColor" />
+              </figure>
+              <div class="card-body items-center text-center space-y-4">
+                <p class="text-ParagraphSecondary font-medium text-base">Rinterio's residential design perfectly captured our vision. Their professionalism and creativity made the entire process seamless and enjoyable.</p>
+                <div class="text-StarColor">
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star-half-stroke text-xl"></i>
+                </div>
+                <h5 class="font-semibold text-sm text-HeadingPrimary">David Lee</h5>
+                <h6 class="font-semibold text-sm text-ParagraphPrimary">Business Owner</h6>
+              </div>
+            </div>
+
+            <div class="card bg-white shadow-xl hidden sm:block">
+              <figure class="px-20 pt-10">
+                <img
+                  src="./assets/Sophia Martinez.png"
+                  alt="Shoes"
+                  class="w-[149px] h-[149px] object-cover rounded-full border-2 border-PrimaryColor" />
+              </figure>
+              <div class="card-body items-center text-center space-y-4">
+                <p class="text-ParagraphSecondary font-medium text-base">Working with Rinterio was a pleasure. Their ability to blend functionality with style truly elevated our project.</p>
+                <div class="text-StarColor">
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                </div>
+                <h5 class="font-semibold text-sm text-HeadingPrimary">Sophia Martinez</h5>
+                <h6 class="font-semibold text-sm text-ParagraphPrimary">Interior Designer</h6>
+              </div>
+            </div>
+
+            <div class="card bg-white shadow-xl hidden sm:block">
+              <figure class="px-20 pt-10">
+                <img
+                  src="./assets/Ava Roberts.png"
+                  alt="Shoes"
+                  class="w-[149px] h-[149px] object-cover rounded-full border-2 border-PrimaryColor" />
+              </figure>
+              <div class="card-body items-center text-center space-y-4">
+                <p class="text-ParagraphSecondary font-medium text-base">Rinterio turned our vision into reality with elegant design and thoughtful details. The results are beautiful and truly livable.</p>
+                <div class="text-StarColor">
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                </div>
+                <h5 class="font-semibold text-sm text-HeadingPrimary">Ava Roberts</h5>
+                <h6 class="font-semibold text-sm text-ParagraphPrimary">Homeowner</h6>
+              </div>
+            </div>
+
+            <div class="card bg-white shadow-xl">
+              <figure class="px-20 pt-10">
+                <img
+                  src="./assets/Olivia.png"
+                  alt="Shoes"
+                  class="w-[149px] h-[149px] object-cover rounded-full border-2 border-PrimaryColor" />
+              </figure>
+              <div class="card-body items-center text-center space-y-4">
+                <p class="text-ParagraphSecondary font-medium text-base">Rinterio’s design for our property listings was stunning, leading to quicker sales and higher client satisfaction. Outstanding work!</p>
+                <div class="text-StarColor">
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                </div>
+                <h5 class="font-semibold text-sm text-HeadingPrimary">Olivia Green</h5>
+                <h6 class="font-semibold text-sm text-ParagraphPrimary">Real Estate Agent</h6>
+              </div>
+            </div>
+
+            <div class="card bg-white shadow-xl">
+              <figure class="px-20 pt-10">
+                <img
+                  src="./assets/Michael Brown.png"
+                  alt="Shoes"
+                  class="w-[149px] h-[149px] object-cover rounded-full border-2 border-PrimaryColor" />
+              </figure>
+              <div class="card-body items-center text-center space-y-4">
+                <p class="text-ParagraphSecondary font-medium text-base">Rinterio's design expertise revitalized our restaurant, enhancing both ambiance and efficiency. Highly recommend their innovative approach and exceptional service.</p>
+                <div class="text-StarColor">
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star text-xl"></i>
+                  <i class="fa-solid fa-star-half-stroke text-xl"></i>
+                </div>
+                <h5 class="font-semibold text-sm text-HeadingPrimary">Michael Brown</h5>
+                <h6 class="font-semibold text-sm text-ParagraphPrimary">Restaurant Owner</h6>
+              </div>
+            </div>
+          </div>
+         </section>
+
+         <!-- Our Works Process -->
+          <section class="container mx-auto py-8 sm:py-24 px-5 sm:px-0">
+            <div class="grid justify-items-center mb-6 sm:mb-8">
+              <button class="bg-white py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> How we works</button>
+              <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Our Works Process</h1>
+              <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-6/6 sm:w-3/6 text-center">Our works process blends creativity and precision to deliver tailored, high-quality solutions from concept to completion.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-6">
               <div class="bg-[#E7C1D3] p-6 rounded-2xl">
                 <img class="max-w-full max-h-full object-cover" src="./assets/concept.png" alt="">
                 <h6 class="my-2.5 text-ParagraphPrimary text-xl font-extrabold">Concept</h6>
@@ -217,15 +353,15 @@
           </section>
 
           <!-- Our Latest Portfolio -->
-          <section class="bg-white py-24">
-            <div class="container mx-auto">
-              <div class="grid justify-items-center mb-8 sm:mb-6">
+          <section class="bg-white py-8 sm:py-24">
+            <div class="container mx-auto px-5 sm:px-0">
+              <div class="grid justify-items-center mb-6 sm:mb-8">
                 <button class="bg-[#EEFCDF] py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> Explore our Latest works</button>
                 <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Our Latest Portfolio</h1>
-                <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-5/6 sm:w-3/6 text-center">Discover our latest portfolio featuring recent projects and innovative designs that demonstrate our expertise and creative vision.</p>
+                <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-6/6 sm:w-3/6 text-center">Discover our latest portfolio featuring recent projects and innovative designs that demonstrate our expertise and creative vision.</p>
               </div>
 
-              <div class=" grid grid-cols-1 lg:grid-cols-12 gap-6 px-5 sm:px-0">
+              <div class=" grid grid-cols-1 lg:grid-cols-12 gap-6">
 
                 <div class="flex items-center flex-col sm:flex-row p-6 border border-BRColor rounded-2xl gap-6 lg:col-span-8">
                   <img class="w-full h-full object-cover" src="./assets/img1.png" alt="">
@@ -278,15 +414,15 @@
           </section>
 
           <!-- Read Our Articles and News -->
-          <section class="py-24 container mx-auto">
-            <div class="grid justify-items-center mb-8 sm:mb-6">
+          <section class="container mx-auto py-8 sm:py-24 px-5 sm:px-0">
+            <div class="grid justify-items-center mb-6 sm:mb-8">
               <button class="bg-[#EEFCDF] py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> Rinterio News</button>
               <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 ">Read Our Articles and News</h1>
-              <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-5/6 sm:w-3/6 text-center">Stay informed with our latest articles and news, offering insights, trends, and updates on design and industry developments.</p>
+              <p class=" text-ParagraphPrimary font-medium text-sm sm:text-base w-6/6 sm:w-3/6 text-center">Stay informed with our latest articles and news, offering insights, trends, and updates on design and industry developments.</p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 px-5 sm:px-0">
-              <div class="flex items-center flex-col p-6 border border-BRColor rounded-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div class="flex items-center flex-col p-6 border border-BRColor bg-white rounded-2xl">
                 <img class="w-full h-full object-cover" src="./assets/article1.png" alt="">
                 <div class="mt-4">
                   <div  class="flex items-center">
@@ -309,7 +445,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex items-center flex-col p-6 border border-BRColor rounded-2xl">
+              <div class="flex items-center flex-col p-6 border border-BRColor bg-white rounded-2xl">
                 <img class="w-full h-full object-cover" src="./assets/article2.png" alt="">
                 <div class="mt-4">
                   <div  class="flex items-center">
@@ -332,7 +468,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex items-center flex-col p-6 border border-BRColor rounded-2xl">
+              <div class="flex items-center flex-col p-6 border border-BRColor bg-white rounded-2xl">
                 <img class="w-full h-full object-cover" src="./assets/article3.png" alt="">
                 <div class="mt-4">
                   <div  class="flex items-center">
@@ -362,13 +498,13 @@
             <section class="h-auto border-[3px] sm:border-[7px] border-white" style="background-image: url(./assets/bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
 
               <div class="container mx-auto py-8 sm:py-24 px-6 sm:px-0">
-                <div class="grid justify-items-center mb-8 sm:mb-6">
+                <div class="grid justify-items-center">
                   <button class="bg-[#EEFCDF] py-2 px-4 rounded-3xl	text-ParagraphPrimary font-bold text-base"><i class="fa-solid fa-arrow-right mr-2"></i> Let’s Connect</button>
                   <h1 class="text-2xl sm:text-4xl font-bold text-HeadingPrimary mb-4 sm:mb-6 mt-4 text-center w-4/6 sm:w-6/6">Let’s Discuss Next Project</h1>
                   <p class="text-ParagraphPrimary font-medium text-sm sm:text-base w-6/6 sm:w-3/6 text-center">Connect with us to explore your ideas and start planning your next project. We’re here to bring your vision to life.</p>
                 </div>
 
-                <div class="">
+                <div class="mt-6 sm:mt-8">
                   <div class="flex items-center flex-col sm:flex-row gap-5 sm:gap-6 mb-6">
                     <input  class="w-full rounded-[64px] py-5 pl-5 placeholder:text-base font-medium" type="text" name="" id="" placeholder="First Name*">
                     <input  class="w-full rounded-[64px] py-5 pl-5 placeholder:text-base font-medium" type="text" name="" id="" placeholder="Last Name*">
@@ -410,7 +546,7 @@
             <a class="link link-hover">Blogs</a>
             <a class="link link-hover">Contact Us</a>
           </nav>
-          <button class="flex items-center py-5 px-3 bg-PrimaryColor rounded-[32px] text-ArrowBG text-xl font-extrabold">
+          <button class="flex items-center px-5 py-3 bg-PrimaryColor rounded-[32px] text-ArrowBG text-xl font-extrabold">
             Book Consult 
             <div class="bg-ArrowBG w-8 h-8 rounded-full flex justify-center items-center ml-2">
               <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
